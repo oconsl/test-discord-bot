@@ -1,0 +1,23 @@
+{
+  "name": "discord-bot-test",
+  "version": "1.0.0",
+  "description": "Discord bot just for testing",
+  "type": "module",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch bot.js",
+    "start": "node bot.js"
+  },
+  "keywords": [
+    "bot",
+    "discord",
+    "test"
+  ],
+  "author": "Santiago Luis Ocón",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.11.0",
+    "dotenv": "^16.0.3"
+  }
+}
